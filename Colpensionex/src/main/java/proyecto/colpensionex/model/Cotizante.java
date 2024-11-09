@@ -9,19 +9,19 @@ public class Cotizante{
     private Integer edad;
     private String correo;
     private String telefono;
-    private Boolean haEstadoListaNegra;
-    private Boolean esPrePensionado;
-    private Boolean perteneceInsPublica;
+    private boolean haEstadoListaNegra;
+    private boolean esPrePensionado;
+    private boolean perteneceInsPublica;
     private String institucionPublica;
-    private Boolean tieneCondecoracion;
-    private Boolean tieneHijosInpec;
-    private Boolean tieneFamPolicia;
-    private Boolean esElMayorEdad;
-    private Boolean observacionDisciplinaria;
+    private boolean tieneCondecoracion;
+    private boolean tieneHijosInpec;
+    private boolean tieneFamPolicia;
+    private boolean esElMayorEdad;
+    private boolean observacionDisciplinaria;
     private Integer semanas;
     private String ciudadNacimiento;
     private String ciudadResidencia;
-    private Boolean alcanzoEdadRPM;
+    private boolean alcanzoEdadRPM;
     private String fondo;
     private String estado;
 
@@ -33,11 +33,11 @@ public class Cotizante{
     //Contructor definido
 
     public Cotizante(String cedula, String nombre, Integer edad, String correo, String telefono,
-                   Boolean haEstadoListaNegra, Boolean esPrePensionado, Boolean perteneceInsPublica,
-                   String institucionPublica, Boolean tieneCondecoracion, Boolean tieneHijosInpec,
-                   Boolean tieneFamPolicia, Boolean esElMayorEdad, Boolean observacionDisciplinaria,
+                   boolean haEstadoListaNegra, boolean esPrePensionado, boolean perteneceInsPublica,
+                   String institucionPublica, boolean tieneCondecoracion, boolean tieneHijosInpec,
+                     boolean tieneFamPolicia, boolean esElMayorEdad, boolean observacionDisciplinaria,
                    Integer semanas, String ciudadNacimiento, String ciudadResidencia,
-                   Boolean alcanzoEdadRPM, String fondo, String estado) {
+                     boolean alcanzoEdadRPM, String fondo, String estado) {
         this.cedula = cedula;
         this.nombre = nombre;
         this.edad = edad;
@@ -103,7 +103,7 @@ public class Cotizante{
         this.telefono = telefono;
     }
 
-    public Boolean getHaEstadoListaNegra() {
+    public boolean getHaEstadoListaNegra() {
         return haEstadoListaNegra;
     }
 
@@ -111,7 +111,7 @@ public class Cotizante{
         this.haEstadoListaNegra = haEstadoListaNegra;
     }
 
-    public Boolean getEsPrePensionado() {
+    public boolean getEsPrePensionado() {
         return esPrePensionado;
     }
 
@@ -119,7 +119,7 @@ public class Cotizante{
         this.esPrePensionado = esPrePensionado;
     }
 
-    public Boolean getPerteneceInsPublica() {
+    public boolean getPerteneceInsPublica() {
         return perteneceInsPublica;
     }
 
@@ -135,7 +135,7 @@ public class Cotizante{
         this.institucionPublica = institucionPublica;
     }
 
-    public Boolean getTieneCondecoracion() {
+    public boolean getTieneCondecoracion() {
         return tieneCondecoracion;
     }
 
@@ -143,7 +143,7 @@ public class Cotizante{
         this.tieneCondecoracion = tieneCondecoracion;
     }
 
-    public Boolean getTieneHijosInpec() {
+    public boolean getTieneHijosInpec() {
         return tieneHijosInpec;
     }
 
@@ -151,7 +151,7 @@ public class Cotizante{
         this.tieneHijosInpec = tieneHijosInpec;
     }
 
-    public Boolean getTieneFamPolicia() {
+    public boolean getTieneFamPolicia() {
         return tieneFamPolicia;
     }
 
@@ -159,7 +159,7 @@ public class Cotizante{
         this.tieneFamPolicia = tieneFamPolicia;
     }
 
-    public Boolean getEsElMayorEdad() {
+    public boolean getEsElMayorEdad() {
         return esElMayorEdad;
     }
 
@@ -167,7 +167,7 @@ public class Cotizante{
         this.esElMayorEdad = esElMayorEdad;
     }
 
-    public Boolean getObservacionDisciplinaria() {
+    public boolean getObservacionDisciplinaria() {
         return observacionDisciplinaria;
     }
 
@@ -199,7 +199,7 @@ public class Cotizante{
         this.ciudadResidencia = ciudadResidencia;
     }
 
-    public Boolean getAlcanzoEdadRPM() {
+    public boolean getAlcanzoEdadRPM() {
         return alcanzoEdadRPM;
     }
 
