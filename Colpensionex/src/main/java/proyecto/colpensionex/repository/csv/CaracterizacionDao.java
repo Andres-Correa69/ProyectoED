@@ -8,6 +8,6 @@ public class CaracterizacionDao extends ADao<Caracterizacion, String>{
 
     public CaracterizacionDao() throws IOException {
         //declarar ruta
-        super("We");
+        super("src/main/resources/files/caracterizacion.csv");
     }
 }
