@@ -1,6 +1,8 @@
 package proyecto.colpensionex.util;
 
+import proyecto.colpensionex.model.Caracterizacion;
 import proyecto.colpensionex.model.Cotizante;
+import proyecto.colpensionex.repository.csv.CaracterizacionDao;
 import proyecto.colpensionex.repository.csv.CotizanteDao;
 import proyecto.colpensionex.service.Validacion;
 import java.io.FileWriter;
@@ -10,9 +12,13 @@ import java.util.List;
 public class Ejecutable {
     public static void main(String[] args) throws IOException {
         CotizanteDao cotizanteDao = new CotizanteDao();
+        CaracterizacionDao caracterizacionDao = new CaracterizacionDao();
+
         List<Cotizante> cotizantes = cotizanteDao.obtenerTodos();
+        List<Caracterizacion> caracterizaciones = caracterizacionDao.obtenerTodos();
+
         Validacion validaciones = new Validacion();
-        validaciones.validarCotizantes(cotizantes);
+        validaciones.validarCotizantes(cotizantes, caracterizaciones);
 
         // Imprimir la lista de cotizantes después de la validación
         System.out.println("\nLista completa de cotizantes:"+"\n");
