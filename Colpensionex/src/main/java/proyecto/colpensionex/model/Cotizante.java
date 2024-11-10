@@ -226,27 +226,6 @@ public class Cotizante{
     //metodo toString
     @Override
     public String toString() {
-        return "Cotizante{" +
-                "cedula='" + cedula + '\'' +
-                ", nombre='" + nombre + '\'' +
-                ", edad=" + edad +
-                ", correo='" + correo + '\'' +
-                ", telefono='" + telefono + '\'' +
-                ", haEstadoListaNegra=" + haEstadoListaNegra +
-                ", esPrePensionado=" + esPrePensionado +
-                ", PerteneceInsPublica=" + perteneceInsPublica +
-                ", institucionPublica='" + institucionPublica + '\'' +
-                ", tieneCondecoracion=" + tieneCondecoracion +
-                ", tieneHijosInpec=" + tieneHijosInpec +
-                ", tieneFamPolicia=" + tieneFamPolicia +
-                ", esElMayorEdad=" + esElMayorEdad +
-                ", observacionDisciplinaria=" + observacionDisciplinaria +
-                ", semanas=" + semanas +
-                ", ciudadNacimiento='" + ciudadNacimiento + '\'' +
-                ", ciudadResidencia='" + ciudadResidencia + '\'' +
-                ", alcanzoEdadRPM=" + alcanzoEdadRPM +
-                ", fondo='" + fondo + '\'' +
-                ", estado='" + estado + '\'' +
-                '}';
+        return "Cédula: " + cedula + " | Nombre: " + nombre + " | Edad: " + edad + " | Correo: " + correo + " | Télefono: " + telefono + " | ¿Ha Estado en la Lista Negra?: " + haEstadoListaNegra + " | ¿Es Pre-Pensionado?: " + esPrePensionado + " | ¿Pertenece a una Institución Pública?: " + perteneceInsPublica + " | ¿Cuál?: " + institucionPublica + " | ¿Tiene Condecoraciones?: " + tieneCondecoracion + " | ¿Tiene Hijos en el Inpec?: " + tieneHijosInpec + " | ¿Tiene Familiares Policias?: " + tieneFamPolicia + " | ¿Es Usted el Mayor?: " + esElMayorEdad + " | ¿Tiene Observaciones Disciplinarias?: " + observacionDisciplinaria + " | ¿Cuántas Semanas Tiene Cotizadas?: " + semanas + " | Ciudad de Nacimiento: " + ciudadNacimiento + " | Ciudad de Residencia: " + ciudadResidencia + " | ¿Alcanzó la Edad para RPM?: " + alcanzoEdadRPM + " | Fondo: " + fondo + " | Estado: " + estado;
     }
 }
