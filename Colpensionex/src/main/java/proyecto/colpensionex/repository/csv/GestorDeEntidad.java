@@ -1,12 +1,10 @@
 package proyecto.colpensionex.repository.csv;
 
+import proyecto.colpensionex.model.Cotizante;
 import proyecto.colpensionex.util.LectorArchivosUtil;
 import java.io.IOException;
 import java.lang.reflect.Field;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Componente intermediario entre la estructura del archivo CSV y los
