@@ -101,7 +101,7 @@ public class Validacion {
         String ciudadNacimiento = cotizante.getCiudadNacimiento();
         String ciudadResidencia = cotizante.getCiudadResidencia();
 
-        if ((ciudadNacimiento.equals("Bogotá") && ciudadResidencia.equals("Bogotá")) ||
+        if ((ciudadNacimiento.equals("Bogotá, D.C.") && ciudadResidencia.equals("Bogotá, D.C.")) ||
                 (ciudadNacimiento.equals("Medellin") && ciudadResidencia.equals("Medellin")) ||
                 (ciudadNacimiento.equals("Cali") && ciudadResidencia.equals("Cali"))) {
             cotizante.setEstado("rechazado");

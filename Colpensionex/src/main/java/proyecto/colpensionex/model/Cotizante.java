@@ -9,6 +9,7 @@ public class Cotizante{
     private Integer edad;
     private String correo;
     private String telefono;
+    private Boolean declaraRenta;
     private Boolean haEstadoListaNegra;
     private Boolean esPrePensionado;
     private Boolean perteneceInsPublica;
@@ -32,7 +33,7 @@ public class Cotizante{
 
     //Contructor definido
 
-    public Cotizante(String cedula, String nombre, Integer edad, String correo, String telefono,
+    public Cotizante(String cedula, String nombre, Integer edad, String correo, String telefono, Boolean declaraRenta,
                    Boolean haEstadoListaNegra, Boolean esPrePensionado, Boolean perteneceInsPublica,
                    String institucionPublica, Boolean tieneCondecoracion, Boolean tieneHijosInpec,
                    Boolean tieneFamPolicia, Boolean esElMayorEdad, Boolean observacionDisciplinaria,
@@ -43,6 +44,7 @@ public class Cotizante{
         this.edad = edad;
         this.correo = correo;
         this.telefono = telefono;
+        this.declaraRenta = declaraRenta;
         this.haEstadoListaNegra = haEstadoListaNegra;
         this.esPrePensionado = esPrePensionado;
         this.perteneceInsPublica = perteneceInsPublica;
@@ -62,6 +64,14 @@ public class Cotizante{
 
     //getters and setters
 
+
+    public Boolean getDeclaraRenta() {
+        return declaraRenta;
+    }
+
+    public void setDeclaraRenta(Boolean declaraRenta) {
+        this.declaraRenta = declaraRenta;
+    }
 
     public String getCedula() {
         return cedula;

@@ -15,8 +15,9 @@ import java.util.Scanner;
 public class Ejecutable {
     public static void main(String [] args) throws IOException {
         CotizanteDao cotizanteDao = new CotizanteDao();
+        cotizanteDao.limpiarCache();
         CaracterizacionDao caracterizacionDao = new CaracterizacionDao();
-
+        caracterizacionDao.limpiarCache();
 
         List<Cotizante> cotizantes = cotizanteDao.obtenerTodos();
         List<Caracterizacion> caracterizaciones = caracterizacionDao.obtenerTodos();
@@ -27,7 +28,7 @@ public class Ejecutable {
 //            System.out.println(cotizante.toString());
 //        }
 
-        System.out.println("Orden de atencion:");
+
         List<Cotizante> cotizantesAceptados = validaciones.getListaAceptados();
 
         validaciones.rellenarListas(cotizantes);
