@@ -1,1 +1,2 @@
 Cedula,Nombre,Edad,Correo,Telefono,DeclaraRenta,HaEstadoListaNegra,EsPrePensionado,PerteneceInsPublica,InstitucionPublica,TieneCondecoracion,TieneHijosInpec,TieneFamPolicia,EsElMayorEdad,ObservacionDisciplinaria,Semanas,CiudadNacimiento,CiudadResidencia,AlcanzoEdadRPM,Fondo,Estado
+1000462299,Juan Castro,18,martinezyaneth@example.com,3041183281,false,true,true,true,inpec,true,false,false,false,false,653,San Francisco,San Miguel,true,porvenir,inhabilitado

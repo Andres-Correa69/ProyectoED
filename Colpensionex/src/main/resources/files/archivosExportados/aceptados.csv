@@ -6908,6 +6908,7 @@ Cedula,Nombre,Edad,Correo,Telefono,DeclaraRenta,HaEstadoListaNegra,EsPrePensiona
 3047129185,Patricia Villamizar,74,mantillavictor@example.net,3036538002,true,false,false,false,policia,true,false,false,true,true,50,Momil,Firavitoba,false,colfondos,aprobado
 6531227070,Elsa Agudelo,76,rpulido@example.net,3122312603,false,false,false,true,inpec,true,false,true,true,false,633,Isnos,Buenaventura,false,extranjero,aprobado
 1831335864,Ramiro Ortiz,67,jimenezyuri@example.com,3157071632,false,false,false,true,armada,true,true,true,true,true,552,Cubarral,Santa Bárbara,true,proteccion,aprobado
+2229639020,Carlos Jorge Rueda,51,alberto54@example.com,3140293780,false,false,false,false,inpec,true,false,false,true,false,364,Palestina,Manaure Balcón del Cesar,false,extranjero,aprobado
 7182654367,Juan Leal,32,sanchezluz@example.org,3165213574,true,false,false,true,inpec,true,true,false,false,true,1300,Palestina,Cerro de San Antonio,false,proteccion,aprobado
 3229004612,Miguel Mauricio Rodríguez,36,freddyguzman@example.com,3137821010,true,false,false,false,inpec,false,true,true,true,true,1100,Ibagué,Bochalema,false,extranjero,aprobado
 4000757842,Guillermo Acosta,73,adolfosuarez@example.net,3153458387,false,false,false,true,armada,true,true,true,true,false,306,Silvania,La Merced,true,colfondos,aprobado
@@ -8728,6 +8729,7 @@ Cedula,Nombre,Edad,Correo,Telefono,DeclaraRenta,HaEstadoListaNegra,EsPrePensiona
 1595620180,Fernando Luna,90,oguzman@example.net,3140570799,false,false,false,true,minsalud,false,false,true,true,true,722,Filadelfia,Cáceres,false,proteccion,aprobado
 5294354592,Eugenia Inés Moreno,65,pintoliliana@example.net,3021129576,false,false,false,true,minsalud,true,true,false,false,true,557,Salamina,Belén,false,colfondos,aprobado
 5599045349,Nancy Yulieth Cardozo Reyes,61,mariaospina@example.org,3067056221,true,false,false,true,inpec,true,true,true,true,true,1300,Plato,Concordia,false,oldmutual,aprobado
+4346522177,José Alejandro Ochoa Ramos,58,ycabrera@example.com,3005307867,false,false,false,false,minsalud,false,false,true,false,true,637,Carmen del Darién,Támara,false,extranjero,aprobado
 5569693801,María Nubia Marín González,57,franciscocabrera@example.org,3084175676,true,false,false,true,minsalud,false,false,true,false,true,1083,El Playón,Vegachí,true,porvenir,aprobado
 3485572010,Fernanda Estefanía Zuluaga Arrieta,42,jhernandez@example.com,3101980492,true,false,false,false,minsalud,false,false,true,false,true,651,Chivor,Ciudad Bolívar,false,extranjero,aprobado
 2940241931,Angie Vega Barreto,33,uorozco@example.net,3143127399,false,false,false,true,armada,true,false,true,false,false,534,Villeta,Paz de Río,false,proteccion,aprobado
@@ -10323,6 +10325,7 @@ Cedula,Nombre,Edad,Correo,Telefono,DeclaraRenta,HaEstadoListaNegra,EsPrePensiona
 6393131433,Jair Pedro Sierra,43,jesus34@example.org,3109466194,false,false,false,true,mininterior,true,false,true,true,true,124,Candelaria,Concepción,false,oldmutual,aprobado
 2611141461,Elizabeth Luz Pérez,56,jardila@example.net,3120603841,true,false,false,false,mininterior,true,true,true,true,true,804,Guachené,Buenos Aires,false,extranjero,aprobado
 8827653444,Esther Rocío Nieto Rodríguez,81,reyesalonso@example.net,3045485717,true,false,false,true,armada,true,false,true,true,false,11,Candelaria,Sutatenza,false,porvenir,aprobado
+7803030166,Andrés Hernández,59,ayalajesus@example.org,3107265793,false,false,false,true,inpec,true,true,true,true,true,234,La Cumbre,Villapinzón,true,oldmutual,aprobado
 8838905302,Andrés Alberto Bravo,76,icardenas@example.com,3009919798,true,false,false,false,mininterior,false,true,true,false,true,182,El Carmen de Chucurí,Santa Rosa de Viterbo,false,extranjero,aprobado
 9222102839,Oswaldo Cárdenas,88,pcastro@example.net,3038030118,false,false,false,true,minsalud,false,false,true,false,true,218,Arenal,Acacías,true,extranjero,aprobado
 4149928945,Edwin Salvador Rojas Vargas,74,beatrizcastro@example.net,3086703707,true,false,false,true,mininterior,true,true,true,false,true,907,Necoclí,Santa Cruz de Mompox,false,proteccion,aprobado
@@ -11417,6 +11420,7 @@ Cedula,Nombre,Edad,Correo,Telefono,DeclaraRenta,HaEstadoListaNegra,EsPrePensiona
 7629298622,Joel Peña Morales,83,ibethgamboa@example.net,3007185323,false,false,false,false,policia,true,false,true,true,false,461,Suaita,Puerto Wilches,false,porvenir,aprobado
 4628682220,Shirley Tovar Flórez,63,davidalvarez@example.net,3117577790,false,false,false,false,policia,false,true,true,false,true,170,San Cayetano,Suan,false,extranjero,aprobado
 3450317088,Leonardo Guevara,69,bedoyacarolina@example.org,3080684753,true,false,false,true,inpec,true,true,true,true,false,876,Cuaspud Carlosama,Sipí,false,colfondos,aprobado
+6321942105,Fernanda Irma Barrera,33,tnino@example.com,3128334229,false,false,false,false,policia,true,true,true,true,false,3,Dolores,Ciénega,false,extranjero,aprobado
 1232305475,Miguel Alberto Caicedo,62,poloenrique@example.com,3188488549,false,false,false,false,inpec,true,false,false,false,true,323,La Playa,Sáchica,false,porvenir,aprobado
 5716985037,Andrés Ocampo Velásquez,35,ricardo37@example.com,3188562461,false,false,false,false,mininterior,true,false,false,false,false,721,Quibdó,Campo de la Cruz,false,porvenir,aprobado
 8794194912,Alberto Silvio Arboleda,40,zdiaz@example.com,3012428832,false,false,false,false,inpec,false,true,false,false,false,263,Simacota,Manaure,false,extranjero,aprobado
@@ -21973,6 +21977,7 @@ Cedula,Nombre,Edad,Correo,Telefono,DeclaraRenta,HaEstadoListaNegra,EsPrePensiona
 3315154279,Flor Nelcy Domínguez Gallego,52,roserowillian@example.com,3052237868,true,false,false,true,armada,true,false,true,true,true,683,Venadillo,El Molino,true,porvenir,aprobado
 4765995284,Sebastián Rodríguez,78,alfonso97@example.org,3077130854,false,false,false,true,armada,true,false,true,false,false,1029,Tausa,Morichal,false,colfondos,aprobado
 5864495782,Alberto Bernardo Mejía,41,magaly01@example.org,3145657519,true,false,false,true,inpec,false,false,true,false,true,566,Caramanta,Zambrano,false,extranjero,aprobado
+9012246640,Yesid Steven Sarmiento,77,mosquerayolanda@example.com,3018454490,false,false,false,true,inpec,true,false,false,false,false,805,Potosí,Pradera,false,extranjero,aprobado
 9374111824,Lizeth Milena Correa,23,milena73@example.com,3071532300,false,false,false,true,minsalud,true,true,true,false,true,1139,El Guacamayo,Santa Sofía,false,oldmutual,aprobado
 3094763773,Katherine Gutiérrez Zambrano,46,smonsalve@example.com,3125260345,false,false,false,true,inpec,true,false,false,false,false,452,Charta,Subachoque,false,porvenir,aprobado
 4626092050,Esteban Pineda Velásquez,39,gomezluz@example.net,3149259357,true,false,false,false,minsalud,false,true,false,false,false,1143,Momil,Margarita,false,extranjero,aprobado
@@ -23215,6 +23220,7 @@ Cedula,Nombre,Edad,Correo,Telefono,DeclaraRenta,HaEstadoListaNegra,EsPrePensiona
 8453017003,Diana Mendoza Hoyos,22,kmaldonado@example.net,3093593001,false,false,false,false,policia,true,true,false,false,false,808,El Banco,Turbo,false,extranjero,aprobado
 8424749660,Jorge Gómez,24,asanchez@example.com,3111151232,false,false,false,true,inpec,true,true,true,true,false,142,Orocué,Villahermosa,true,porvenir,aprobado
 9474394408,Marcela Perea Martínez,74,graciela19@example.net,3003678930,true,false,false,false,armada,true,false,false,true,false,980,Tibaná,Carmen de Apicalá,false,extranjero,aprobado
+7636135209,Karen Trujillo Mesa,39,alejandrosanchez@example.net,3167812393,false,false,false,false,inpec,false,false,false,false,false,505,Manzanares,Majagual,false,porvenir,aprobado
 3037282812,Cecilia Aurora Salcedo García,89,oscarortiz@example.org,3145453017,false,false,false,false,minsalud,false,true,false,true,true,984,Confines,Riofrío,false,extranjero,aprobado
 9739107636,Hernando Jairo Castro,36,wbarrera@example.org,3088249618,true,false,false,true,inpec,true,false,true,false,true,773,Argelia,Santa Bárbara,true,porvenir,aprobado
 8361977190,Gregorio Pérez Bedoya,70,maria21@example.net,3018518714,true,false,false,true,mininterior,true,true,false,true,true,24,San Juan de Arama,Sabanagrande,true,extranjero,aprobado
@@ -35667,6 +35673,7 @@ Cedula,Nombre,Edad,Correo,Telefono,DeclaraRenta,HaEstadoListaNegra,EsPrePensiona
 2603980892,Mariana Ruiz Giraldo,31,patriciaortiz@example.com,3117816728,true,false,false,true,armada,true,false,true,false,false,3,Palmar,Ubalá,false,extranjero,aprobado
 6972946973,Luz Gómez Pérez,29,sierraandrea@example.net,3138026327,true,false,false,false,policia,true,false,true,true,false,110,Santa Rosa,Hato,false,porvenir,aprobado
 1189996104,Patricia Velásquez,68,magalyolaya@example.net,3087293605,true,false,false,true,inpec,true,false,false,true,true,1138,Briceño,Mesetas,false,proteccion,aprobado
+1961919257,Luis Prieto,51,johana23@example.org,3003825457,true,false,false,true,minsalud,false,true,true,false,true,950,Yumbo,Sotaquirá,true,proteccion,aprobado
 8670603242,Yolanda Acosta Espinosa,23,orlando81@example.net,3056668438,false,false,false,true,armada,true,false,true,false,false,1242,Buenavista,El Peñón,true,proteccion,aprobado
 3820767952,Laura Clemencia Parra,68,hernan03@example.org,3088583678,true,false,false,false,mininterior,true,false,false,false,true,681,La Tebaida,Alvarado,false,porvenir,aprobado
 9039219372,Esperanza Hurtado Gil,54,camachodaniela@example.net,3063118181,false,false,false,true,inpec,true,false,false,true,true,265,Santa Bárbara,Bucaramanga,true,extranjero,aprobado
@@ -37191,6 +37198,7 @@ Cedula,Nombre,Edad,Correo,Telefono,DeclaraRenta,HaEstadoListaNegra,EsPrePensiona
 2170919347,Andrés Duque Ayala,86,valenciadaniela@example.com,3119912447,true,false,false,true,minsalud,false,true,true,true,true,176,Pailitas,San Juan Nepomuceno,true,proteccion,aprobado
 1909112039,Mónica Olga Arias Valencia,18,hernando32@example.net,3024325340,false,false,false,true,inpec,false,false,true,false,false,185,Sucre,Recetor,false,colfondos,aprobado
 4432786869,María Rodríguez,68,jhonrivera@example.org,3111305889,true,false,false,true,mininterior,true,false,true,true,true,573,Capitanejo,Paya,true,colfondos,aprobado
+6339876108,Susana Rodríguez,64,karol72@example.org,3179428551,true,false,false,false,policia,true,false,true,false,true,255,Aracataca,Murindó,false,extranjero,aprobado
 4855302424,Luis López,62,miguel46@example.org,3000718743,true,false,false,true,minsalud,false,false,false,true,true,917,Pueblo Bello,Tubará,false,porvenir,aprobado
 5606157778,Gladis Lozano Posada,18,paolapulido@example.net,3021679630,false,false,false,true,mininterior,true,true,false,true,true,493,Paime,Margarita,true,extranjero,aprobado
 5028504452,Leonardo Ortega Perdomo,71,carlosorozco@example.org,3167619714,true,false,false,false,minsalud,false,true,false,true,true,699,Aguadas,Ciénaga de Oro,false,extranjero,aprobado
@@ -43572,6 +43580,7 @@ Cedula,Nombre,Edad,Correo,Telefono,DeclaraRenta,HaEstadoListaNegra,EsPrePensiona
 8501184754,María Lizeth García,66,bcruz@example.com,3092103344,false,false,false,false,minsalud,false,true,true,false,true,764,Altos del Rosario,Yaguará,false,extranjero,aprobado
 9376908552,Fernanda Álvarez,83,gmorales@example.org,3090017243,true,false,false,false,policia,true,false,false,false,false,131,Soatá,Puerres,false,porvenir,aprobado
 7288805989,Patricia Patricia Giraldo Rentería,39,mariaerazo@example.net,3062028733,true,false,false,true,inpec,true,true,false,false,false,304,Belén,San Francisco,false,proteccion,aprobado
+9822763678,Socorro Lorena Palacios García,25,espitiaalejandra@example.net,3118189267,false,false,false,true,inpec,false,true,true,false,true,241,Campamento,Donmatías,false,extranjero,aprobado
 9493506243,Victoria Yina Vega Hernández,46,ospinajaider@example.net,3009285764,true,false,false,false,minsalud,false,true,true,true,false,381,Curillo,Palermo,false,extranjero,aprobado
 3925229367,Melba Fernanda Rojas,76,iavila@example.org,3098102445,false,false,false,true,inpec,true,false,false,true,true,132,Nariño,El Piñón,true,oldmutual,aprobado
 8980966242,Germán Santiago Mena Rosero,79,velasquezdamian@example.com,3048626201,false,false,false,true,inpec,true,false,false,false,true,501,Floresta,Tipacoque,true,extranjero,aprobado
@@ -48830,6 +48839,7 @@ Cedula,Nombre,Edad,Correo,Telefono,DeclaraRenta,HaEstadoListaNegra,EsPrePensiona
 3410372255,Julia María Rodríguez Guerra,34,pachecomaria@example.net,3114270286,false,false,false,true,minsalud,true,true,true,true,true,1246,La Vega,Chivor,false,proteccion,aprobado
 4906459715,Javier Gómez,40,zmejia@example.net,3080032736,true,false,false,false,policia,false,false,false,true,true,786,Salazar,Madrid,false,porvenir,aprobado
 8160583845,Carlos Diego Acevedo Montenegro,21,jorgegalindo@example.org,3177816975,true,false,false,true,armada,true,true,false,false,false,293,San Andrés de Cuerquía,Fresno,true,extranjero,aprobado
+7815507832,Darwin Vélez,19,juan78@example.com,3174341146,true,false,false,true,minsalud,true,false,false,true,true,1167,Monterrey,Arroyohondo,true,proteccion,aprobado
 5112552888,Gladys Paula Ochoa,89,ricardo50@example.org,3117139773,true,false,false,false,minsalud,false,true,true,false,false,173,La Pintada,Ponedera,false,colfondos,aprobado
 9538147872,Enrique Jesús Rodríguez Velásquez,36,herreraalejandra@example.net,3021662634,false,false,false,false,minsalud,true,true,false,true,true,143,Hatillo de Loba,Confines,false,extranjero,aprobado
 6017572407,Ana Marina Velasco,76,gildardo30@example.net,3021643169,false,false,false,false,minsalud,false,false,false,true,false,806,Miranda,Rionegro,false,extranjero,aprobado
@@ -52977,6 +52987,7 @@ Cedula,Nombre,Edad,Correo,Telefono,DeclaraRenta,HaEstadoListaNegra,EsPrePensiona
 8649726049,Fidel Giovanny Navarro,50,bohorquezcarlos@example.net,3099620649,false,false,false,false,inpec,true,false,true,false,false,750,Cubarral,La Victoria,false,porvenir,aprobado
 8010353565,Consuelo Diana Agudelo Salcedo,84,valenciawilder@example.com,3112327250,false,false,false,false,armada,true,false,false,true,true,284,Miranda,Cáchira,false,porvenir,aprobado
 7337192426,Carmen Hernández Correa,62,dquintero@example.com,3169056084,false,false,false,false,armada,false,true,false,true,false,1199,Urrao,Güepsa,false,extranjero,aprobado
+4282578203,Andrés López,63,julio98@example.org,3043735119,true,false,false,true,inpec,true,false,false,false,true,404,Mosquera,San Agustín,true,porvenir,aprobado
 7524710597,Patricia Patricia Henao,44,constanza30@example.net,3072331463,true,false,false,true,minsalud,false,true,false,true,true,1160,Luruaco,Tópaga,true,proteccion,aprobado
 2269818626,Olga Martha Zapata Sánchez,63,beatriz76@example.org,3099078283,false,false,false,true,inpec,false,true,false,false,true,739,Ipiales,El Paujíl,true,porvenir,aprobado
 4260734460,Ana Méndez,64,zlopez@example.org,3023308365,true,false,false,false,mininterior,false,true,true,true,true,440,Cumbitara,Puerto Colombia,false,porvenir,aprobado
@@ -64331,6 +64342,7 @@ Cedula,Nombre,Edad,Correo,Telefono,DeclaraRenta,HaEstadoListaNegra,EsPrePensiona
 1583047563,David Jaramillo Álvarez,69,edison61@example.org,3024792245,true,false,false,true,inpec,true,false,true,true,true,1142,Concordia,Córdoba,false,proteccion,aprobado
 6367736783,Dolores Pacheco Suárez,42,anafigueroa@example.com,3193374615,true,false,false,true,armada,false,true,false,true,false,674,San Pablo de Borbur,Supatá,false,extranjero,aprobado
 4095592300,Yulieth Contreras Muñoz,85,oscarcorrea@example.org,3068479709,true,false,false,true,armada,true,true,true,false,true,1187,Timbío,Puerto Leguízamo,false,porvenir,aprobado
+3756962791,Patricia Sánchez Ordóñez,21,ncastillo@example.net,3086242785,true,false,false,true,mininterior,false,false,false,false,true,91,Cartagena de Indias,Enciso,true,extranjero,aprobado
 2511526094,Liliana Gómez,58,smith81@example.net,3034074346,false,false,false,true,minsalud,false,true,true,false,true,1292,Barranca de Upía,Solano,true,oldmutual,aprobado
 1950540053,Andrés Acosta Barrios,64,suarezandres@example.net,3031872104,false,false,false,false,armada,false,true,true,true,false,185,Guavatá,Circasia,false,colfondos,aprobado
 7680121428,Camila Durán Moreno,55,guerreropedro@example.com,3128173903,true,false,false,true,armada,true,true,false,false,false,440,Cabrera,Coveñas,false,colfondos,aprobado
@@ -65058,6 +65070,7 @@ Cedula,Nombre,Edad,Correo,Telefono,DeclaraRenta,HaEstadoListaNegra,EsPrePensiona
 8315157885,Víctor Mesa,41,bravoandres@example.com,3039092819,true,false,false,false,minsalud,true,false,false,true,true,439,Briceño,Ocaña,false,extranjero,aprobado
 7614397288,Sebastián Velásquez Roa,35,alexanderruiz@example.org,3184767294,true,false,false,false,minsalud,false,true,false,true,false,297,Sopó,Siachoque,false,extranjero,aprobado
 9071190069,Rafael Gómez Bernal,20,vgonzalez@example.org,3114739224,false,false,false,false,inpec,true,false,true,false,false,394,Buenavista,Sardinata,false,extranjero,aprobado
+5427461316,José Mesa Mora,38,garciacarlos@example.net,3094977912,false,false,false,false,mininterior,true,true,false,true,true,783,Quipile,Contadero,false,porvenir,aprobado
 2066238963,Marina Gómez,87,javiermarin@example.org,3000969179,true,false,false,true,inpec,false,true,true,true,false,578,Yacopí,Necoclí,false,colfondos,aprobado
 2611098838,María Sarmiento,86,yolanda41@example.net,3128637726,false,false,false,true,inpec,true,true,false,false,false,257,El Tablón de Gómez,Cimitarra,true,extranjero,aprobado
 7246780183,Nelly Marina Rodríguez,45,socorroangulo@example.com,3196691722,true,false,false,false,armada,false,false,false,true,true,71,Saldaña,Venecia,false,extranjero,aprobado
@@ -69754,6 +69767,7 @@ Cedula,Nombre,Edad,Correo,Telefono,DeclaraRenta,HaEstadoListaNegra,EsPrePensiona
 6725699750,Ana Acevedo Castro,80,psalazar@example.org,3028224392,true,false,false,true,mininterior,false,false,true,false,true,454,Silos,Suárez,false,porvenir,aprobado
 1922173339,Marcela Gutiérrez,76,liliaariza@example.org,3039251812,false,false,false,true,armada,true,true,true,false,true,265,Garagoa,Urumita,true,oldmutual,aprobado
 4382146802,Diana Mendoza Castellanos,45,wpalacio@example.org,3094675165,false,false,false,true,inpec,true,true,false,false,false,1117,Nocaima,Patía,true,extranjero,aprobado
+6369534077,Stiven Jair Valencia,48,johanna97@example.com,3080735507,true,false,false,true,mininterior,true,false,true,true,true,411,San Felipe,Girardota,true,proteccion,aprobado
 5030222885,Cristina Ceballos Castro,22,john11@example.org,3019920979,false,false,false,true,inpec,false,true,true,true,true,102,Pauna,Jardín,false,oldmutual,aprobado
 7529931362,Elizabeth Elizabeth Osorio Vargas,63,maria71@example.org,3016584138,true,false,false,true,inpec,true,false,false,true,false,205,Támesis,Maripí,true,colfondos,aprobado
 9879002421,Alexander Córdoba Mosquera,85,kbecerra@example.org,3064945622,false,false,false,true,minsalud,true,true,false,true,true,1102,Sampués,Choachí,false,oldmutual,aprobado
@@ -73415,6 +73429,7 @@ Cedula,Nombre,Edad,Correo,Telefono,DeclaraRenta,HaEstadoListaNegra,EsPrePensiona
 3687314794,Johana Gil Silva,79,mgomez@example.com,3050908463,true,false,false,true,inpec,false,true,true,true,true,397,Pitalito,Palmito,true,oldmutual,aprobado
 1241693430,Johanna Mary García Vargas,23,acastillo@example.net,3103881183,false,false,false,false,armada,false,true,false,false,true,48,Güepsa,Melgar,false,porvenir,aprobado
 5827176115,Cecilia Mena,57,beltranmaria@example.org,3004295676,true,false,false,true,minsalud,true,true,false,true,true,488,Guachené,Dabeiba,false,oldmutual,aprobado
+1725961275,Yeison Johan Martínez,32,campoblanca@example.com,3030645166,false,false,false,true,minsalud,false,false,false,false,true,900,Bolívar,San Antero,false,oldmutual,aprobado
 4960379542,Luz Isabel Vargas Gómez,69,hernandogutierrez@example.org,3048385892,false,false,false,true,armada,true,true,true,false,false,910,Santa Marta,Sahagún,true,extranjero,aprobado
 2089891471,Sandra Ariza Torres,73,diazwendy@example.com,3190230835,false,false,false,false,policia,false,true,false,false,false,484,Chimá,Itagüí,false,extranjero,aprobado
 9707320640,Dario Gómez,71,ocamacho@example.net,3153926313,true,false,false,true,minsalud,true,false,false,true,true,211,Cáchira,Onzaga,false,proteccion,aprobado
@@ -74229,6 +74244,7 @@ Cedula,Nombre,Edad,Correo,Telefono,DeclaraRenta,HaEstadoListaNegra,EsPrePensiona
 1321690065,Enrique Abraham Bonilla Díaz,34,xlopez@example.net,3123463200,true,false,false,true,mininterior,false,true,false,true,true,299,Santa Cruz de Mompox,El Bagre,true,colfondos,aprobado
 2264303964,Alejandro Mendoza Carvajal,71,grodriguez@example.org,3059170740,false,false,false,true,minsalud,true,false,false,true,true,327,El Retén,Puerto Libertador,false,proteccion,aprobado
 5022692814,Gladys Martínez,84,delgadojulian@example.com,3174443568,true,false,false,true,inpec,true,true,false,true,true,772,Garzón,Bolívar,true,extranjero,aprobado
+8214270810,Fernanda Andrea Jiménez,30,mantillacarmen@example.org,3017638538,true,false,false,true,minsalud,true,false,false,true,true,1055,Pajarito,Altamira,false,colfondos,aprobado
 4057784366,Miller William Beltrán Córdoba,54,gutierrezwilliam@example.com,3048296780,true,false,false,false,armada,true,false,false,true,true,1111,Mahates,Papunahua,false,extranjero,aprobado
 9253076458,Luis Henry Barrera Suárez,38,mvelez@example.net,3092049002,false,false,false,true,minsalud,false,true,false,true,true,740,Remedios,Gutiérrez,true,colfondos,aprobado
 3255319524,Leandro Pedro Acosta,28,marlenelara@example.com,3003630610,false,false,false,false,policia,false,true,false,false,false,12,Lejanías,Buesaco,false,porvenir,aprobado
@@ -76179,6 +76195,7 @@ Cedula,Nombre,Edad,Correo,Telefono,DeclaraRenta,HaEstadoListaNegra,EsPrePensiona
 2445493381,Martha Gloria Gutiérrez,83,alejandro14@example.org,3144934241,false,false,false,false,armada,false,false,true,false,true,1293,Túquerres,Vetas,false,extranjero,aprobado
 9365361276,Fernanda Fabiola Pérez Herrera,70,angelperdomo@example.org,3033338107,false,false,false,false,inpec,true,true,false,true,true,1126,Unión Panamericana,La Playa,false,extranjero,aprobado
 8893422475,Ana Contreras,54,pablosolano@example.com,3021509200,true,false,false,true,armada,false,true,false,true,false,267,Olaya Herrera,Cunday,false,colfondos,aprobado
+9173593622,Brayan Ernesto Saavedra,62,carlos83@example.com,3132725200,false,false,false,false,minsalud,false,true,false,false,true,633,Cabrera,Turbo,false,porvenir,aprobado
 5677565700,Amanda Ramírez Rodríguez,87,carlos38@example.com,3190906144,true,false,false,true,inpec,true,true,false,true,true,416,Flandes,Viracachá,false,oldmutual,aprobado
 1862152329,Carmen Benavides,60,duartedavid@example.org,3005351880,false,false,false,true,mininterior,false,false,true,false,true,106,Potosí,Necoclí,false,extranjero,aprobado
 3806814765,Pedro Salas Castañeda,30,diazalfredo@example.org,3060613032,true,false,false,false,minsalud,false,false,true,false,false,248,Santa María,Boavita,false,porvenir,aprobado
@@ -77311,6 +77328,7 @@ Cedula,Nombre,Edad,Correo,Telefono,DeclaraRenta,HaEstadoListaNegra,EsPrePensiona
 7491409226,Ruth Luz Giraldo Mosquera,57,claudiarincon@example.com,3101182012,true,false,false,false,mininterior,true,true,true,false,false,102,Ortega,Montería,false,colfondos,aprobado
 3250016524,Fernando Pardo Rodríguez,90,rodriguezsantiago@example.com,3131741044,false,false,false,true,inpec,true,false,true,false,false,963,Maicao,Río Viejo,true,extranjero,aprobado
 9335776951,María Concepción Hurtado Hernández,34,oreyes@example.net,3064683543,true,false,false,true,minsalud,true,false,false,true,true,763,Hispania,Entrerríos,true,colfondos,aprobado
+5204164676,Adolfo Castañeda,47,dario27@example.org,3142165970,true,false,false,true,inpec,false,true,true,true,true,379,San Luis de Sincé,Cabuyaro,false,proteccion,aprobado
 4582031779,Héctor Luis Toro,69,alix56@example.org,3122816246,true,false,false,true,armada,false,false,true,false,false,705,Nueva Granada,Puerto Caicedo,false,extranjero,aprobado
 9462372084,Rosa Janeth Riascos,77,nvanegas@example.net,3146640398,true,false,false,true,armada,true,false,false,true,true,554,Túquerres,Tauramena,true,porvenir,aprobado
 4165611980,Daniel Manuel Ordóñez,70,velasquezstiven@example.org,3044900500,false,false,false,true,minsalud,false,false,false,true,true,1040,Paicol,Cunday,true,oldmutual,aprobado
@@ -82798,6 +82816,7 @@ Cedula,Nombre,Edad,Correo,Telefono,DeclaraRenta,HaEstadoListaNegra,EsPrePensiona
 1234553339,Liliana Sepúlveda Mercado,49,nancy16@example.com,3045781738,false,false,false,true,mininterior,false,false,true,true,true,1188,Flandes,Remedios,true,extranjero,aprobado
 6999150594,Gabriela Daniela Rentería Morales,22,tramirez@example.com,3010310960,false,false,false,true,armada,true,true,false,true,false,902,Zarzal,Los Andes,true,oldmutual,aprobado
 8334634996,David Sánchez Prada,65,rociohernandez@example.org,3074198937,true,false,false,true,inpec,false,true,false,false,false,912,San Luis de Sincé,Chía,true,oldmutual,aprobado
+5199053462,David Brayan Granados,88,gbedoya@example.com,3058334150,false,false,false,true,inpec,true,true,true,false,false,176,Marquetalia,Ibagué,true,oldmutual,aprobado
 6298437389,Tomás Hernando Gómez Guerrero,47,barenas@example.org,3126303057,false,false,false,false,armada,true,true,true,true,false,35,Nilo,Lenguazaque,false,porvenir,aprobado
 7977264057,Rita Vilma Gómez,34,bsierra@example.net,3031954963,true,false,false,true,armada,true,true,true,false,false,849,Vijes,Palmar,false,colfondos,aprobado
 7591771748,Luis Cortés García,54,pramirez@example.net,3106629170,false,false,false,true,inpec,false,true,false,false,false,852,Villanueva,Gramalote,true,oldmutual,aprobado
@@ -83288,6 +83307,7 @@ Cedula,Nombre,Edad,Correo,Telefono,DeclaraRenta,HaEstadoListaNegra,EsPrePensiona
 6431636410,Johana Hernández Miranda,83,pachecoandres@example.org,3109039083,false,false,false,true,inpec,false,true,false,true,true,1012,Lejanías,Lebrija,true,colfondos,aprobado
 9649018731,María Mena,59,vpadilla@example.org,3132719253,true,false,false,true,armada,true,true,false,true,true,591,Ancuya,Yotoco,false,proteccion,aprobado
 8943704614,Andrés Jairo Orjuela Mosquera,80,qrodriguez@example.net,3197808204,false,false,false,true,inpec,false,true,false,true,true,958,Atrato,Sevilla,false,oldmutual,aprobado
+1914255501,Augusto Rodríguez,40,julianamendoza@example.org,3026158801,true,false,false,true,minsalud,false,true,true,true,true,939,Machetá,Pinillos,true,porvenir,aprobado
 1560237963,Eduardo Carlos Ayala Correa,29,ballesterosalexandra@example.net,3031433818,false,false,false,true,armada,true,true,true,false,false,1255,Tipacoque,Pisba,true,porvenir,aprobado
 4725778241,Luz María Gamboa Riascos,37,patricia66@example.com,3137002689,true,false,false,true,mininterior,false,true,true,false,true,534,Polonuevo,Cajicá,true,porvenir,aprobado
 4734997085,Ana Ruth Rentería Marín,35,perezliliana@example.net,3141118567,false,false,false,true,minsalud,true,true,false,false,true,47,Zarzal,Inzá,true,porvenir,aprobado

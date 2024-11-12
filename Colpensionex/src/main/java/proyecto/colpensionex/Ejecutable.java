@@ -43,11 +43,11 @@ public class Ejecutable {
         System.out.println("Lista Negra: " + listaNegra.size());
 
         // Guardar cada lista en un archivo CSV en la nueva ruta
-        EscritorCsvUtil.escribirCsv("src/main/resources/files/archivosExportados/aceptados.csv", listaAceptados);
-        EscritorCsvUtil.escribirCsv("src/main/resources/files/archivosExportados/rechazados.csv", listaRechazados);
-        EscritorCsvUtil.escribirCsv("src/main/resources/files/archivosExportados/inhabilitados.csv", listaInhabilitados);
-        EscritorCsvUtil.escribirCsv("src/main/resources/files/archivosExportados/embargados.csv", listaEmbargados);
-        EscritorCsvUtil.escribirCsv("src/main/resources/files/archivosExportados/lista_negra.csv", listaNegra);
+        EscritorCsvUtil.escribirCsv("D:\\ESTRUCTURA DE DATOS\\IdeaProjects\\GitProyectos\\ProyectoED\\Colpensionex\\src\\main\\resources\\files\\archivosExportados\\aceptados.csv", listaAceptados);
+        EscritorCsvUtil.escribirCsv("D:\\ESTRUCTURA DE DATOS\\IdeaProjects\\GitProyectos\\ProyectoED\\Colpensionex\\src\\main\\resources\\files\\archivosExportados\\rechazados.csv", listaRechazados);
+        EscritorCsvUtil.escribirCsv("D:\\ESTRUCTURA DE DATOS\\IdeaProjects\\GitProyectos\\ProyectoED\\Colpensionex\\src\\main\\resources\\files\\archivosExportados\\inhabilitados.csv", listaInhabilitados);
+        EscritorCsvUtil.escribirCsv("D:\\ESTRUCTURA DE DATOS\\IdeaProjects\\GitProyectos\\ProyectoED\\Colpensionex\\src\\main\\resources\\files\\archivosExportados\\embargados.csv", listaEmbargados);
+        EscritorCsvUtil.escribirCsv("D:\\ESTRUCTURA DE DATOS\\IdeaProjects\\GitProyectos\\ProyectoED\\Colpensionex\\src\\main\\resources\\files\\archivosExportados\\lista_negra.csv", listaNegra);
 
         // Crear turnos y cargar lista de aceptados
         Turnos turnos = new Turnos();
@@ -55,6 +55,6 @@ public class Ejecutable {
 
         // Obtener lista de enturnados y escribir en CSV
         List<Cotizante> listaEnturnados = turnos.getListaEnturnados();
-        EscritorCsvUtil.escribirCsv("src/main/resources/files/archivosExportados/enturnados.csv", listaEnturnados);
+        EscritorCsvUtil.escribirCsv("D:\\ESTRUCTURA DE DATOS\\IdeaProjects\\GitProyectos\\ProyectoED\\Colpensionex\\src\\main\\resources\\files\\archivosExportados\\enturnados.csv", listaEnturnados);
     }
 }
