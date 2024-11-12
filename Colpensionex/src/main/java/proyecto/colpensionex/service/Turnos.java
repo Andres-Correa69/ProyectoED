@@ -5,6 +5,8 @@ import proyecto.colpensionex.model.Cotizante;
 import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
+import java.util.ArrayList;
+
 
 public class Turnos {
     private PriorityQueue<Cotizante> queue;
@@ -31,11 +33,19 @@ public class Turnos {
         queue.addAll(cotizantes);
     }
 
-    // Método para extraer cotizantes en orden de prioridad
+    // Método para extraer cotizantes en orden de prioridad en una lista
+    public List<Cotizante> getListaEnturnados() {
+        List<Cotizante> enturnados = new ArrayList<>();
+        while (!queue.isEmpty()) {
+            enturnados.add(queue.poll());
+        }
+        return enturnados;
+    }
+
+    // Método opcional para imprimir los cotizantes en orden de prioridad
     public void atenderCotizantes() {
         System.out.println("Cotizantes en orden de prioridad (menores de 35 y no declaran renta primero):");
-        while (!queue.isEmpty()) {
-            Cotizante cotizante = queue.poll();
+        for (Cotizante cotizante : getListaEnturnados()) {
             System.out.println(cotizante.getNombre() + " - Edad: " + cotizante.getEdad() + ", Declara Renta: " + cotizante.getDeclaraRenta());
         }
     }

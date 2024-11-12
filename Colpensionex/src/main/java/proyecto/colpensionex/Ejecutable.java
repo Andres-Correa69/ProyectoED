@@ -10,83 +10,51 @@ import proyecto.colpensionex.repository.csv.CaracterizacionDao;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.Scanner;
+import proyecto.colpensionex.util.EscritorCsvUtil;
+
+import java.io.IOException;
+import java.util.List;
 
 public class Ejecutable {
-    public static void main(String [] args) throws IOException {
+    public static void main(String[] args) throws IOException {
         CotizanteDao cotizanteDao = new CotizanteDao();
-        cotizanteDao.limpiarCache();
         CaracterizacionDao caracterizacionDao = new CaracterizacionDao();
-        caracterizacionDao.limpiarCache();
 
+        // Cargar cotizantes y caracterizaciones
         List<Cotizante> cotizantes = cotizanteDao.obtenerTodos();
         List<Caracterizacion> caracterizaciones = caracterizacionDao.obtenerTodos();
+
         Validacion validaciones = new Validacion();
         validaciones.validarCotizantes(cotizantes, caracterizaciones);
-
-//        for(Cotizante cotizante : cotizantes){
-//            System.out.println(cotizante.toString());
-//        }
-
-
-        List<Cotizante> cotizantesAceptados = validaciones.getListaAceptados();
-
         validaciones.rellenarListas(cotizantes);
-        Scanner scanner = new Scanner(System.in);
-        int opcion;
 
-        do {
-            System.out.println("Selecciona la lista que deseas ver:");
-            System.out.println("1. Lista Aceptados");
-            System.out.println("2. Lista Rechazados");
-            System.out.println("3. Lista Inhabilitados");
-            System.out.println("4. Lista Embargados");
-            System.out.println("5. Lista Negra");
-            System.out.println("6. Orden Turno");
-            System.out.println("7. Salir");
+        // Cargar listas
+        List<Cotizante> listaAceptados = validaciones.getListaAceptados();
+        List<Cotizante> listaRechazados = validaciones.getListaRechazados();
+        List<Cotizante> listaInhabilitados = validaciones.getListaInhabilitados();
+        List<Cotizante> listaEmbargados = validaciones.getListaEmbargados();
+        List<Cotizante> listaNegra = validaciones.getListaNegra();
 
-            opcion = scanner.nextInt();
+        // Verificación temporal de listas
+        System.out.println("Aceptados: " + listaAceptados.size());
+        System.out.println("Rechazados: " + listaRechazados.size());
+        System.out.println("Inhabilitados: " + listaInhabilitados.size());
+        System.out.println("Embargados: " + listaEmbargados.size());
+        System.out.println("Lista Negra: " + listaNegra.size());
 
-            switch (opcion) {
-                case 1:
-                    mostrarLista("Lista Aceptados:", validaciones.getListaAceptados());
-                    break;
-                case 2:
-                    mostrarLista("Lista Rechazados:", validaciones.getListaRechazados());
-                    break;
-                case 3:
-                    mostrarLista("Lista Inhabilitados:", validaciones.getListaInhabilitados());
-                    break;
-                case 4:
-                    mostrarLista("Lista Embargados:", validaciones.getListaEmbargados());
-                    break;
-                case 5:
-                    mostrarLista("Lista Negra:", validaciones.getListaNegra());
-                    break;
-                case 6:
-                    Turnos turnos = new Turnos();
-                    turnos.cargarCotizantes(validaciones.getListaAceptados());
-                    turnos.atenderCotizantes(); // Muestra los cotizantes en orden de prioridad
-                    break;
-                case 7:
-                    System.out.println("Saliendo...");
-                    break;
-                default:
-                    System.out.println("Opción no válida. Intenta de nuevo.");
-                    break;
-            }
-        } while (opcion != 7);
+        // Guardar cada lista en un archivo CSV en la nueva ruta
+        EscritorCsvUtil.escribirCsv("src/main/resources/files/archivosExportados/aceptados.csv", listaAceptados);
+        EscritorCsvUtil.escribirCsv("src/main/resources/files/archivosExportados/rechazados.csv", listaRechazados);
+        EscritorCsvUtil.escribirCsv("src/main/resources/files/archivosExportados/inhabilitados.csv", listaInhabilitados);
+        EscritorCsvUtil.escribirCsv("src/main/resources/files/archivosExportados/embargados.csv", listaEmbargados);
+        EscritorCsvUtil.escribirCsv("src/main/resources/files/archivosExportados/lista_negra.csv", listaNegra);
 
-        scanner.close();
+        // Crear turnos y cargar lista de aceptados
+        Turnos turnos = new Turnos();
+        turnos.cargarCotizantes(listaAceptados);
 
+        // Obtener lista de enturnados y escribir en CSV
+        List<Cotizante> listaEnturnados = turnos.getListaEnturnados();
+        EscritorCsvUtil.escribirCsv("src/main/resources/files/archivosExportados/enturnados.csv", listaEnturnados);
     }
-
-    public static void mostrarLista(String titulo, List<Cotizante> lista) {
-        System.out.println(titulo);
-        for (Cotizante cotizante : lista) {
-            System.out.println(cotizante.toString());
-        }
-    }
-
 }
-

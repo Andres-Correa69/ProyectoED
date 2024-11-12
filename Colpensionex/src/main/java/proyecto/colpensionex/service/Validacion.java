@@ -29,7 +29,7 @@ public class Validacion {
                 // Validación 1: Si haEstadoListaNegra es true
                 if (cotizante.getHaEstadoListaNegra()) {
                     cotizante.setEstado("lista negra");
-                     // Añadir a lista negra
+                    // Añadir a lista negra
                 } else {
                     // Validación 2: Si esPrePensionado es true
                     if (cotizante.getEsPrePensionado()) {
@@ -44,7 +44,7 @@ public class Validacion {
                                     if (cotizante.getTieneCondecoracion()) {
                                         cotizante.setEstado("aprobado");
                                     } else {
-                                       // cotizante.setEstado("procesar como civil");
+                                        // cotizante.setEstado("procesar como civil");
                                         validacionCivil(cotizante);
                                     }
                                     break;
@@ -55,7 +55,7 @@ public class Validacion {
                                     } else if (cotizante.getTieneCondecoracion()) {
                                         cotizante.setEstado("aprobado");
                                     } else {
-                                       // cotizante.setEstado("procesar como civil");
+                                        // cotizante.setEstado("procesar como civil");
                                         validacionCivil(cotizante);
                                     }
                                     break;
@@ -65,7 +65,7 @@ public class Validacion {
                                         if (cotizante.getEsElMayorEdad()) {
                                             cotizante.setEstado("aprobado");
                                         } else {
-                                           // cotizante.setEstado("procesar como civil");
+                                            // cotizante.setEstado("procesar como civil");
                                             validacionCivil(cotizante);
                                         }
                                     } else {
