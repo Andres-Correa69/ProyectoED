@@ -14,7 +14,8 @@ import proyecto.colpensionex.util.EscritorCsvUtil;
 
 import java.io.IOException;
 import java.util.List;
-
+//cd "D:\ESTRUCTURA DE DATOS\IdeaProjects\GitProyectos\ProyectoED\Colpensionex"
+//java -jar out\artifacts\Colpensionex_jar\Colpensionex.jar
 public class Ejecutable {
     public static void main(String[] args) throws IOException {
         CotizanteDao cotizanteDao = new CotizanteDao();
